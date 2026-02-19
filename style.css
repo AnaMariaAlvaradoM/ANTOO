@@ -11,6 +11,13 @@
   display: inline-block;
   margin-left: -50px;
 }
+.logo span {
+  color: var(--black);
+  font-style: italic;
+  transform: skewX(-0.3deg);
+  display: inline-block;
+  margin-left: -25px;
+}
  .logo2 {
     font-family: 'ElectroPromo', sans-serif;
     font-weight: 800;
@@ -54,6 +61,7 @@
     letter-spacing: 0.15em;
     color: var(--black);
     text-decoration: none;
+    
   }
   
   .nav-links { display: flex; gap: 2rem; list-style: none; }
