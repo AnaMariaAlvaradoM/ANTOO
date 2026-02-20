@@ -247,10 +247,13 @@ nav {
   .logo2 {
     margin-left: 0;
     justify-content: center;
+    font-size: clamp(1.6rem, 7vw, 2.5rem); /* más pequeño y proporcional */
   }
   .abstract-sub {
     margin-left: 0;
     text-align: center;
+    letter-spacing: 0.3em; /* reducir el letter-spacing excesivo en móvil */
+    font-size: 0.65rem;
   }
 }
 .floating-tag {
