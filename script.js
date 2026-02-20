@@ -45,7 +45,7 @@ const products = {
   aqua_largo: {
     title: "Aqua Largo",
     price: "$85.000",
-    images: ["imagenes/aqua_largo_1.png","imagenes/aqua_largo_2.png"],
+    images: ["imagenes/aquaLargo1.png","imagenes/aquaLargo2.png","imagenes/aquaLargo3.png"],
     features: [
       "Binder para piscina, mar, río y vacaciones",
       "Largo tipo camisilla",
@@ -58,12 +58,13 @@ const products = {
   aqua_corto: {
     title: "Aqua Corto",
     price: "$75.000",
-    images: ["imagenes/aqua_corto_1.png","imagenes/aqua_corto_2.png"],
+    images: ["imagenes/aquaCorto1.png","imagenes/aquaCorto2.png"],
     features: [
       "Binder de baño versión corta",
       "Doble panel de tela en frente para mayor compresión",
       "Ideal para playa, piscina y río",
-      "Tejido especial resistente al agua"
+      "Tejido especial resistente al agua",
+      "Compresión suave"
     ],
     sizes: ["XS","S","M","L","XL","XXL"],
     colors: [{name:"Negro",hex:"#111"},{name:"Verde",hex:"#6b7f6b"}]
@@ -89,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
       autoplay: { delay: 2000, disableOnInteraction: false },
       pagination: { el: el.querySelector('.swiper-pagination'), clickable: true },
       effect: 'fade',
-      allowTouchMove: false // evita conflicto con el click del card
+      allowTouchMove: false 
     });
   });
 });
