@@ -68,6 +68,32 @@ const products = {
     ],
     sizes: ["XS","S","M","L","XL","XXL"],
     colors: [{name:"Negro",hex:"#111"},{name:"Verde",hex:"#6b7f6b"}]
+  },
+  pack_duo: {
+    title: "Pack Duo",
+    price: "$180.000",
+    // images: ["imagenes/packDuo1.png", "imagenes/packDuo2.png"],
+    features: [
+      "2 binders ANDRA o G20 a tu elección",
+      "$90.000 c/u en el pack",
+      "Combina tallas y colores como prefieras",
+      "Fabricados bajo pedido"
+    ],
+    sizes: ["XS","S","M","L","XL","XXL"],
+    colors: [{name:"Negro",hex:"#111"},{name:"Blanco",hex:"#fff"},{name:"Beige",hex:"#d4bfab"},{name:"Canela",hex:"#b8956b"}]
+  },
+  pack_x3: {
+    title: "Pack X3",
+    price: "$255.000",
+    // images: ["imagenes/packX3_1.png", "imagenes/packX3_2.png"],
+    features: [
+      "3 binders ANDRA o G20 a tu elección",
+      "$85.000 c/u en el pack — ¡la mejor oferta!",
+      "Combina tallas y colores como prefieras",
+      "Fabricados bajo pedido"
+    ],
+    sizes: ["XS","S","M","L","XL","XXL"],
+    colors: [{name:"Negro",hex:"#111"},{name:"Blanco",hex:"#fff"},{name:"Beige",hex:"#d4bfab"},{name:"Canela",hex:"#b8956b"}]
   }
 };
 
@@ -79,7 +105,9 @@ document.addEventListener('DOMContentLoaded', function() {
     { sel: '.carousel-andra' },
     { sel: '.carousel-ash' },
     { sel: '.carousel-aqua-largo' },
-    { sel: '.carousel-aqua-corto' }
+    { sel: '.carousel-aqua-corto' },
+    { sel: '.carousel-pack-duo' },
+    { sel: '.carousel-pack-x3' }
   ];
 
   carouselConfigs.forEach(({ sel }) => {
